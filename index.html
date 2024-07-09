@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css files -->
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <!-- --------- -->
+
+    <!-- my css files -->
+    <link rel="stylesheet" href="./Css/media.css">
+    <link rel="stylesheet" href="./Css/details.css">
+    <link rel="stylesheet" href="./Css/load.css">
+    <link rel="stylesheet" href="./Css/style.css">
+    <!-- ------------ -->
+</head>
+
+<body>
+
+    <section class="home d-block">
+        <header>
+            <img src="./image/wraper.png" alt="game photo">
+        </header>
+
+        <nav class="navbar navbar-expand-lg w-75 z-3 mx-auto py-2 position-sticky" id="game">
+            <div class="container-fluid">
+                <a class="navbar-brand p-0 text-white" href="#"> <img src="./image/logo-sm.png" alt="web logo"
+                        class="py-1"> GAME REVIEWS </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link aOne text-white active" aria-current="page" href="#">MMORPG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link aTwo text-white" aria-current="page" href="#">SHOOTER</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link aThree text-white" aria-current="page" href="#">SAILING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link aFour text-white" aria-current="page" href="#">PERMADEATH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link aFive text-white" aria-current="page" href="#">SUPERHERO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link aSix text-white" aria-current="page" href="#">PIXEL</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="games">
+            <div class="Container mx-auto mt-5">
+                <div class="container-fluid">
+                    <div class="row d-flex row-gap-5" id="gameBox">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="loadPage position-absolute start-0 end-0 top-0 bottom-0 justify-content-center align-items-center">
+        <i class="fa-solid fa-spinner fa-spin fa-7x text-white"></i>
+    </section>
+
+    <section class="details d-none" id="gameDetails">
+    </section>
+
+    <!-- js files -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <!-- -------- -->
+
+    <!-- my js files -->
+    <script src="jquery/jquery-3.7.1.min.js"></script>
+    <script type="module" src="./JS/main.js"></script>
+    <!-- ----------- -->
+</body>
+
+</html>

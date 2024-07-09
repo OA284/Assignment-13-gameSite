@@ -1,0 +1,47 @@
+.Container{
+    width: 80%;
+    height: 500px;
+}
+
+.Container header{
+    width: 100%;
+    height: 15%;
+}
+.Container header i{
+    width: 24px;
+    height: 24px ;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(147, 148, 149);
+}
+.Container header i:hover{
+    color: rgb(201, 201, 201);
+}
+
+.Container footer.partTwo{
+    height: 85%;
+}
+.Container footer.partTwo span.img{
+    width: 35%;
+}
+.Container footer.partTwo span.details{
+    width: 65%;
+}
+.Container footer.partTwo span.details h6{
+    font-size: 15px;
+    font-weight: 600;
+}
+.Container footer.partTwo span.details h6 span{
+    font-size: 12px;
+    padding: 3px 10px;
+}
+.Container footer.partTwo span.details button{
+    border-width: 2px;
+    background-color: transparent;
+    border: solid 1px rgb(255, 193, 7);
+    padding: 5px 15px;
+    transition: background-color .2s;
+}
+.Container footer.partTwo span.details button:hover{
+    background-color: rgb(255, 193, 7);
+}

@@ -1,0 +1,105 @@
+body{
+    background-color: #272b30;
+    font-family: Comfortaa, cursive;
+}
+
+.home header img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+.home nav{
+    top: 0;
+    text-transform: uppercase !important;
+    margin-top: -30px;
+    background-color: rgb(58, 73, 123);
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+}
+.home nav .navbar-brand img{
+    width: 40px;
+}
+.home nav ul{
+    margin-left: 35%;
+}
+.home nav ul li{
+    font-size: 12px;
+    padding: 4px 0;
+    color: red;
+}
+.home nav ul li a{
+    color: white;
+}
+a.active{
+    color: rgb(0, 153, 204) !important;
+}
+.nav-link:hover{
+    color: rgb(0, 153, 204) !important;
+}
+
+.hoverBig{
+    height: 350px;
+    transition: transform 0.7s;
+    cursor: pointer;
+}
+.Content{
+    width: 95%;
+    height: 350px;
+    background-color: rgb(39, 43, 48);
+    border: solid 2px rgb(32, 35, 40);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Content figcaption{
+    width: 100%;
+}
+.Content figcaption span h6.money{
+    padding: 7px 10px;
+    background-color: rgb(74, 103, 146);
+    font-size: small;
+    border-radius: 7px;
+    transition: background-color 0.7s;
+}
+.Content figcaption h6{
+    color: rgb(136, 138, 141);
+}
+.hoverBig .Content figcaption h6.desc{
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    line-height: 1.5rem;
+    overflow: hidden;
+}
+footer.partOne{
+    width: 95%;
+    height: 35px;
+    border: solid 2px rgb(32, 35, 40);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+footer.partOne span{
+    padding: 5px;
+    background-color: rgb(50, 56, 62);
+    cursor: pointer;
+}
+.Content figcaption span h6{
+    font-size: 14px;
+}
+.hoverBig:hover{
+    transform: scale(1.07);
+}
+.hoverBig:hover .Content figcaption span h6.money{
+    background-color: rgb(13, 110, 253);
+}
+.Content img{
+    opacity: .5;
+    transition: opacity .7s;
+}
+.hoverBig:hover .Content img{
+    opacity: 1;
+}
+
+.games .Container{
+    width: 90%;
+}
